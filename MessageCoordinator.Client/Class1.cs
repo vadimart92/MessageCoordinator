@@ -6,7 +6,17 @@ using System.Threading.Tasks;
 
 namespace MessageCoordinator.Client
 {
-    public class Class1
+
+	public class Message {
+		public Guid UId;
+		public string Name { get; set; }
+		public string Payload { get; set; }
+	}
+
+    public class MessageCoordinatorClient
     {
+		public void Push() {
+
+		}
     }
 }
