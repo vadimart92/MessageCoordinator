@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageCoordinator", "MessageCoordinator\MessageCoordinator.csproj", "{5D80B56E-0AF0-4228-A824-FEE91FB67633}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinnessLogicWroker", "BusinnessLogicWroker\BusinnessLogicWroker.csproj", "{0B0ECF42-D805-4075-AE47-18C98C7384A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceWorker", "WebServiceWorker\WebServiceWorker.csproj", "{2280C080-ED7E-4E06-8517-52A21103D244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebUI", "WebUI\WebUI.csproj", "{13948A81-E5BC-4388-81A9-FF951F059346}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageCoordinator.DTO", "MessageCoordinator.DTO\MessageCoordinator.DTO.csproj", "{C3D7F7D8-DE5F-4157-8451-4449F85DC8E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageCoordinator.Client", "MessageCoordinator.Client\MessageCoordinator.Client.csproj", "{2367A694-EF42-44B1-902C-2E4297429070}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D80B56E-0AF0-4228-A824-FEE91FB67633}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D80B56E-0AF0-4228-A824-FEE91FB67633}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D80B56E-0AF0-4228-A824-FEE91FB67633}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D80B56E-0AF0-4228-A824-FEE91FB67633}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B0ECF42-D805-4075-AE47-18C98C7384A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B0ECF42-D805-4075-AE47-18C98C7384A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B0ECF42-D805-4075-AE47-18C98C7384A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B0ECF42-D805-4075-AE47-18C98C7384A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2280C080-ED7E-4E06-8517-52A21103D244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2280C080-ED7E-4E06-8517-52A21103D244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2280C080-ED7E-4E06-8517-52A21103D244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2280C080-ED7E-4E06-8517-52A21103D244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13948A81-E5BC-4388-81A9-FF951F059346}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13948A81-E5BC-4388-81A9-FF951F059346}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13948A81-E5BC-4388-81A9-FF951F059346}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13948A81-E5BC-4388-81A9-FF951F059346}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3D7F7D8-DE5F-4157-8451-4449F85DC8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3D7F7D8-DE5F-4157-8451-4449F85DC8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3D7F7D8-DE5F-4157-8451-4449F85DC8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3D7F7D8-DE5F-4157-8451-4449F85DC8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2367A694-EF42-44B1-902C-2E4297429070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2367A694-EF42-44B1-902C-2E4297429070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2367A694-EF42-44B1-902C-2E4297429070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2367A694-EF42-44B1-902C-2E4297429070}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

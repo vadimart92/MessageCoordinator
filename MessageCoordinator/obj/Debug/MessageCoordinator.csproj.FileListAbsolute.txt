@@ -1,0 +1,1 @@
+F:\DEV\CScharp\BpmProductivityTools\MessageCoordinator\MessageCoordinator\bin\Debug\MessageCoordinator.exe.config
