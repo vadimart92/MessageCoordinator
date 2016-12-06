@@ -15,7 +15,7 @@ namespace MessageCoordinator.Client
 
     public class MessageCoordinatorClient
     {
-		public void Push() {
+		public void Push(Message message) {
 
 		}
     }
