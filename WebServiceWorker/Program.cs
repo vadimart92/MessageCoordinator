@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace WebServiceWorker {
 	class Program {
 		static void Main(string[] args) {
+			using (var host = new WebServiceWorkerHost(typeof(DataService).Assembly).Init()) {
+				host.Start("http://localhost:8000/");
+				Console.WriteLine("Started...");
+				Console.ReadKey();
+			}
 		}
 	}
 }

@@ -292,6 +292,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MessageCoordinator.Client\MessageCoordinator.Client.csproj">
+      <Project>{2367a694-ef42-44b1-902c-2e4297429070}</Project>
+      <Name>MessageCoordinator.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MessageCoordinator.DTO\MessageCoordinator.DTO.csproj">
+      <Project>{c3d7f7d8-de5f-4157-8451-4449f85dc8e8}</Project>
+      <Name>MessageCoordinator.DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
