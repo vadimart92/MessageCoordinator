@@ -17,12 +17,14 @@ namespace WebUI.Hubs {
 
 	public class MainHubService : Service {
 		public object Any(Update request) {
-			var client = Api.CreateClient();
-			var msg = new ReadRecordsCountMessage {
-				Version = GetType().Assembly.GetName().Version,
-				SchemaName = request.Message
-			};
-			var result = client.Invoke<ReadRecordsCountMessage, ReadRecordsCountResultMessage>(msg);
+			ReadRecordsCountResultMessage result;
+			using (var client = Api.CreateClient()) {
+				var msg = new ReadRecordsCountMessage {
+					Version = GetType().Assembly.GetName().Version,
+					SchemaName = request.Message
+				};
+				result = client.Invoke<ReadRecordsCountMessage, ReadRecordsCountResultMessage>(msg);
+			}
 			var context = GlobalHost.ConnectionManager.GetHubContext<CloudServicesHub>();
 			context.Clients.All.UpdateResults(result.Count);
 			return new UpdateResponse {Success = true};
